@@ -1,4 +1,4 @@
-Proyecto: Análisis de Cuentas por Cobrar en Power BI
+Proyecto Bi  Cuentas por Cobrar en Power BI
 
 🔄 Procedimientos a Realizar Paso a Paso
 
