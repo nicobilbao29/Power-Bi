@@ -8,7 +8,8 @@ al Crear la tabla Calendario ya se esta creando un Modelo de datos, la tabla dat
 pero como tengo mi tabla calendario ,esta me permite decir que la fecha es unica 
 8. creo las siguientes  columnas calculadas y  medidas : 
 
-   Columnas Calculadas en la tabla DATA.
+   Columnas Calculadas en la tabla DATA.![Power Query](https://github.com/user-attachments/assets/dfc61272-a1a4-4916-a512-2f9870222968)
+
    
 Tipo Saldo = IF(Data[Fecha Vencimiento] <= TODAY(); "Saldo Vencido"; "Por Vencer") 
 Dias Transcurridos = DATEDIFF(Data[Fecha Factura]; Data[Fecha Vencimiento]; DAY) 
@@ -30,3 +31,15 @@ Núm.Fact.Vencidas = CALCULATE([Núm.Facturas]; Data[Tipo Saldo] = "Saldo Vencid
 Núm.Facturas = COUNTROWS(Data)
 
 ![Cuentas x Pagar ](https://github.com/user-attachments/assets/f6b413ba-3287-4360-aabe-78597e3c0c30)
+![Datajpg](https://github.com/user-attachments/assets/2d1c69b2-7aca-4592-b811-e41b23475a84)
+
+Con Powery Puedo realizar las trasnformaciones como las siguientes :  
+borrar datos Nulos 
+agregar columnas condicionales 
+Reemplazar valores (por ejemplo, cambiar “N/A” por 0) 
+Dividir columnas por delimitadores o posiciones fijas
+Combinar columnas en una sola (concatenación)
+Quitar espacios en blanco (inicio, final o ambos)
+ es Impactante lo secillo que hace esto Power Query , en un excel tomaria tiempo a demas que necesitas de muchas funciones
+
+![Power Query](https://github.com/user-attachments/assets/ac8f7fc4-32a6-4f06-b496-3c02a4a5f70b)
