@@ -1,5 +1,5 @@
 Proyecto Bi  Cuentas por Cobrar en Power BI
-https://www.canva.com/design/DAE2ABfEC6E/FqRrvZ-Cbn36kn2hYXG0jg/view?website#2:cont-ctanos
+
 🔄 Procedimientos a Realizar Paso a Paso
 
 Cargar la fuente de datos
